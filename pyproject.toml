@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools","setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basicpkg"
+version = "1.0.0"
+authors = [
+    {name = "siva kumar", email = "karrouthusivakumar@gmail.com"},
+]
+
+description = "Python package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "stringcase ~=1.2.0",
+]
+

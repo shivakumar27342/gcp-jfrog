@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "basicpkg"
-version = "1.0.0"
+version = "1.1"
 authors = [
   { name="siva kumar", email="karrouthusivakumar@gmail.com" },
 ]
